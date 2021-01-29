@@ -50,6 +50,8 @@ namespace KeyAuth
             Console.WriteLine("\n\n  Logged In!");
             Console.WriteLine("\n\n  Your key expires at " + KeyAuthApp.user_data.expiry);
 
+            
+            Console.ReadLine(); // remove this if you want the application to close once logged in
             /*
 
             KeyAuthApp.download("231696", "C:\\ok.dll");
@@ -57,8 +59,6 @@ namespace KeyAuth
             Optional Functions:
 
             Console.WriteLine(KeyAuthApp.var("123456"));
-
-            Console.ReadLine();
             */
         }
     }
